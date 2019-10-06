@@ -4,26 +4,26 @@
   background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 }
 
-.search-form{
+.search-form {
   min-height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.search-bar{
+.search-bar {
   width: 50%;
   border: none;
   padding: 10px;
 }
 
-.search-button{
+.search-button {
   background: lightcoral;
   border: none;
   color: #fff;
   padding: 10px 20px;
 }
-.recipes{
+.recipes {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
