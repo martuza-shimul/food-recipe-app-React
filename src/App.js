@@ -3,9 +3,11 @@ import Recipe from "./Recipe";
 import "./App.css";
 
 const App = () => {
+  // API from edamam.com
   const APP_ID = "145c442f";
   const APP_KEY = "fa595d2525ce712a15ee6856ae21d94c";
 
+  // States
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
   const [query, setQuery] = useState("chicken");
